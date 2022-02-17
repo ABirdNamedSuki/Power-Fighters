@@ -24,3 +24,20 @@ if(keyboard_check(vk_nokey)) {
 	walkSpeed = 3.5;
 }
 
+//function check_fire(){
+	if mouse_check_button(mb_left){
+		if(can_fire){
+			can_fire = false;
+			alarm[0] = firerate;
+			
+			var _dir = point_direction(x, y, mouse_x, mouse_y);
+			var _inst = instance_create_layer(x, y, "Projectiles", Projectile_1)
+			with (_inst) {
+				speed = other.projectile_speed;
+				direction = _dir;
+				image_angle = _dir;
+				owner_id = other;
+			}
+		}
+	}
+//}
