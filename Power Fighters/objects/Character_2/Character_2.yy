@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "Character_1_Sprite",
-    "path": "sprites/Character_1_Sprite/Character_1_Sprite.yy",
+    "name": "Character_2_Sprite",
+    "path": "sprites/Character_2_Sprite/Character_2_Sprite.yy",
   },
   "solid": true,
   "visible": true,
@@ -42,7 +42,7 @@
     "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "Character_1",
+  "name": "Character_2",
   "tags": [],
   "resourceType": "GMObject",
 }
